@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+.imagemPreencher{
+    display: block;
+    background-image: url(./img/matrix-background.png);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+.interface{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    padding-top: 12rem;
+}
+.login{
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.login input{
+    width: 20vw;
+    height: 4vh;
+    background-color: transparent;
+    border: 2px solid #05EF00;
+    color: white;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.login h1{
+    color: #05EF00;
+    font-size: 20px;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.botao-login{
+    width: 100px;
+    height: 40px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #05EF00;
+    background-color: transparent;
+    border: 2px solid #05EF00;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 4rem;
+}
+.botao-login:hover{
+    border: 2px solid #000000;
+    color: #000000;
+    background-color: #05EF00;
+}
