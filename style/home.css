@@ -28,10 +28,26 @@ body{
     background-color: rgb(5, 239, 0, 0.5);
     height: 50vh;
     width: 35vw;
+    overflow-y: hidden;
+    overflow-y: auto;
     border-radius: 15px;
     padding: 1.5rem;
     
 }
+::-webkit-scrollbar-thumb {
+    background: rgb(5, 239, 0); /* Cor do thumb */
+    border-radius: 15px; /* Forma arredondada */
+  }
+  /* Define a cor da barra de rolagem para todo o documento */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+  }
+  
+  /* Cor de fundo do track (área da barra de rolagem) */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 15px; /* Cor do track */
+  }
 .api p{
     color: white;
     opacity: 99%;

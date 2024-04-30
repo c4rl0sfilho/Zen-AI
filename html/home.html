@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/home.css">
+    <script src="script.js" defer></script>
     <title>Zen-AI</title>
 </head>
 <body>
@@ -12,21 +13,17 @@
             <img src="../img/Zen-Ai.svg" alt="Zen-AI logo">
         </div>
         <div class="main">
-            <div class="api resposta">
-                <p>
-                    Zen-AI é um chatbot de inteligência artificial projetado para fornecer respostas precisas e conselhos úteis de maneira calma e serena. Sua personalidade é tranquila e centrada, e sua linguagem é cuidadosamente escolhida para promover uma atmosfera de paz e reflexão. Zen-AI se destaca pela capacidade de compreender perguntas complexas e oferecer respostas claras e diretas, sem deixar de lado a sensibilidade humana.
-                </p>
+            <div class="api resposta" id="">
+               <p id="answer-pt"></p>
             </div>
             <div class="api response">
-                <p>
-                    Zen-AI is an artificial intelligence chatbot designed to provide accurate answers and useful advice in a calm and serene manner. Its personality is tranquil and centered, and its language is carefully chosen to promote an atmosphere of peace and reflection. Zen-AI stands out for its ability to understand complex questions and offer clear and direct responses without losing sight of human sensitivity.
-                </p>
+                <p>A função tradução ainda esta em desenvolvimento...</p>
             </div>
         </div>
         <div class="input-caht">
             <div class="input">
-                <input type="text" placeholder="Digite aqui...">
-                <img src="../img/icon-send.svg" alt="Enviar">
+                <input type="text" placeholder="Digite aqui..." id="ask-user">
+                <img src="../img/icon-send.svg" alt="Enviar" id="enviar">
             </div>
         </div>
     </div>
